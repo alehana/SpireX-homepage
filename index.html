@@ -2,69 +2,56 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>SpireX</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpireX | Start building real skills</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home-page">
 
 <header>
-  <h1>SpireX</h1>
+  <a class="brand" href="index.html">Spire<span>X</span></a>
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#internship">Internship</a>
-    <a href="#contact">Contact</a>
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="internship.html">Internship</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<div class="hero" id="home">
-  <h2>Welcome to SpireX</h2>
-  <p>We help students grow their skills with real projects and guidance from people who care about your progress.</p>
-  <a href="#internship" class="btn">View Internships</a>
-</div>
-
-<div class="section" id="about">
-  <h2>About Us</h2>
-  <div class="underline"></div>
-  <p class="about-text">SpireX started with a simple idea, to give students a place where they can learn real skills and not just theory. We work with beginners and help them grow step by step. Our team believes that everyone can learn to code and build something great if they get the right guidance and enough practice.</p>
-</div>
-
-<div class="section" id="internship">
-  <h2>Internship Program</h2>
-  <div class="underline"></div>
-  <p class="about-text">Our internship program is made for students who want to gain real experience. You will work on small projects and learn from people who already work in the field.</p>
-
-  <div class="cards">
-    <div class="card">
-      <h3>Web Development</h3>
-      <p>Learn HTML, CSS and JavaScript by building real websites.</p>
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Learn by making</p>
+      <h1>Turn curiosity into work you can show.</h1>
+      <p class="hero-text">SpireX helps students move from tutorials to practical projects, with clear guidance and room to find their own way of working.</p>
+      <div class="hero-actions">
+        <a href="internship.html" class="btn">Explore internships</a>
+        <a href="about.html" class="text-link">How SpireX works <span aria-hidden="true">→</span></a>
+      </div>
     </div>
-    <div class="card">
-      <h3>Graphic Design</h3>
-      <p>Learn how to design posters, logos and social media content.</p>
+    <div class="hero-note" aria-label="SpireX approach">
+      <span class="note-number">01</span>
+      <p>Small steps.<br><strong>Useful outcomes.</strong></p>
+      <span class="note-line"></span>
+      <p class="note-small">Practice with purpose, get feedback, and keep building.</p>
     </div>
-    <div class="card">
-      <h3>Marketing</h3>
-      <p>Learn how businesses grow using social media and online ads.</p>
-    </div>
-  </div>
-</div>
+  </section>
 
-<div class="section" id="contact">
-  <h2>Contact Us</h2>
-  <div class="underline"></div>
-  <p class="about-text">If you have any questions, feel free to send us a message below.</p>
-
-  <form>
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Your Email">
-    <textarea rows="5" placeholder="Your Message"></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</div>
+  <section class="section intro-section">
+    <div class="section-heading"><p class="eyebrow">A practical starting point</p><h2>Learning feels different when the work is real.</h2></div>
+    <p class="section-lead">You do not need to know everything before you begin. We create a supportive place to try, ask better questions, and turn new skills into projects that feel like yours.</p>
+  </section>
+  <section class="section feature-grid">
+    <article class="feature-item"><span class="feature-index">01</span><h3>Build steadily</h3><p>Start with approachable tasks and grow your confidence one finished piece at a time.</p></article>
+    <article class="feature-item"><span class="feature-index">02</span><h3>Learn together</h3><p>Get guidance, feedback, and the perspective that is hard to find working alone.</p></article>
+    <article class="feature-item"><span class="feature-index">03</span><h3>Show your progress</h3><p>Leave with practical work that gives future applications and conversations something to build on.</p></article>
+  </section>
+</main>
 
 <footer>
-  <p>&copy; 2026 SpireX. All rights reserved.</p>
+  <p class="brand-footer">Spire<span>X</span></p>
+  <p>Practical experience for the next step.</p>
+  <p class="copyright">&copy; 2026 SpireX</p>
 </footer>
 
 </body>
